@@ -715,6 +715,7 @@ void clearGlobalRecord(){
 }
 
 void testHTPKaiRand(){
+    cout<< "Please input compressive sensing problem sizes: (m, n, k)" <<flush;
     int m, n, k; cin >> m >> n >> k;
     //m = 300, n = 400, k = 160;
     //* random generator settings
